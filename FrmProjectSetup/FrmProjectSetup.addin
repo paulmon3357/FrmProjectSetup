@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>FrmProjectSetupLevels</Text>
+    <Description>Some description for FrmProjectSetup</Description>
+    <Assembly>FrmProjectSetup.dll</Assembly>
+    <FullClassName>FrmProjectSetup.FrmProjectSetup</FullClassName>
+    <ClientId>ed5e960a-d221-45dc-91bb-d97cbbfde711</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application FrmProjectSetup</Name>
+    <Assembly>FrmProjectSetup.dll</Assembly>
+    <FullClassName>FrmProjectSetup.App</FullClassName>
+    <ClientId>f6e756bd-7d31-4ae6-8cfd-e6ebefe27f30</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
